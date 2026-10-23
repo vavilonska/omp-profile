@@ -1,0 +1,8 @@
+{
+  "name": "omp-astra-workflow",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "omp": { "extensions": ["./index.ts"] },
+  "files": ["index.ts", "relay.ts", "tool-contract.ts"]
+}

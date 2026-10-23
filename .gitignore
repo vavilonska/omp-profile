@@ -1,0 +1,24 @@
+# Local credentials and runtime state never belong in the shared profile.
+.env
+.env.*
+!.env.example
+config.yml
+config.yaml
+auth.json
+credentials*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.jsonl
+*.sqlite*
+*.db
+sessions/
+cache/
+backups/
+node_modules/
+.local/
+.tmp/
+.DS_Store
+Thumbs.db
